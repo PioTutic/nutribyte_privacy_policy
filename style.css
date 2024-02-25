@@ -10,25 +10,37 @@ body {
 header {
     background: #333;
     color: #fff;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #0779e4 3px solid;
-}
-
-header h1 {
+    padding: 20px;
     text-align: center;
-    margin: 0;
 }
 
 main {
-    padding: 15px;
+    padding: 20px;
 }
 
 section {
-    margin: 0 auto;
-    max-width: 800px;
     background: #fff;
+    margin-bottom: 20px;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #444;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li::before {
+    content: "• ";
+    color: #007BFF; /* Change the color to fit your design */
+    font-weight: bold;
+}
+
+a {
+    color: #007BFF;
 }
